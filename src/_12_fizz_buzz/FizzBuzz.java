@@ -28,31 +28,25 @@ package _12_fizz_buzz;
 
 public class FizzBuzz {
 	public static void main(String[] args) {
+		for (int i = 0; i < 21; i++) 
+			
 		
-	
-	System.out.println("1");
-	System.out.println("2");
-	System.out.println("fizz");
-	System.out.println("4");
-	System.out.println("buzz");
-	System.out.println("fizz");
-	System.out.println("7");
-	System.out.println("8");
-	System.out.println("fizz");
-	System.out.println("buzz");
-	System.out.println("11");
-	System.out.println("fizz");
-	System.out.println("13");
-	System.out.println("14");
-	System.out.println("fizzbuzz");
-	System.out.println("16");
-	System.out.println("17");
-	System.out.println("fizz");
-	System.out.println("19");
-	System.out.println("buzz");
+		if (i % 3 == 0 && i % 5 == 0) {
+			System.out.println("fizzbuzz");
+		}
+		else if (i % 5 == 0) {
+		System.out.println("buzz");
 	
 	}
-
+		else if (i % 3 == 0) {
+		System.out.println("fizz");
+	}
+	
+	else {
+		
+	System.out.println(i);
+	}
 }
-
+	
+}
 
